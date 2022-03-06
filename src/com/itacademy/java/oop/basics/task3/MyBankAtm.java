@@ -26,6 +26,10 @@ public class MyBankAtm implements Atm {
     public double getAtmBalance() {
         return atmBalance;
     }
+
+    public void setAtmBalance(double atmBalance) {
+        this.atmBalance = atmBalance;
+    }
 }
 /*
 •	Create interface Atm with method to withdraw using CreditCard and DebitCard.
