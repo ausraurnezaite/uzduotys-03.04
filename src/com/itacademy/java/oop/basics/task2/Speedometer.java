@@ -13,7 +13,7 @@ public class Speedometer {
         return null;
     }
 
-    public static Bike chooseWinner(int mountainBikeSpeed, int roadBikeSpeed) throws LygiosiosException {
+    public static Bike chooseWinner(int mountainBikeSpeed, int roadBikeSpeed){
         if (mountainBikeSpeed > roadBikeSpeed) {
             return Bike.MOUNTAIN;
         } else if ((roadBikeSpeed > mountainBikeSpeed)) {

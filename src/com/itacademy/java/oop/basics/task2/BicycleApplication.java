@@ -1,7 +1,11 @@
 package com.itacademy.java.oop.basics.task2;
 
+import java.util.Scanner;
+
 public class BicycleApplication {
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
 
         MountainBike mountain = new MountainBike();
 
@@ -12,6 +16,8 @@ public class BicycleApplication {
         mountain.changeGear(1);
         mountain.changeGear(-1);
         mountain.changeGear(-1);
+
+
 
 //        mountain.speedUp();
 //        mountain.speedUp();
