@@ -8,7 +8,7 @@ public class CreditCard extends Card {
     public CreditCard(String cardHolderName, String cardNumber, double credit, double interest) {
         super(cardHolderName, cardNumber);
         if (credit > 0) {
-            this.CREDIT = -credit;   // jei ivedamas teigiama credit reiksme
+            this.CREDIT = -credit;   // jei ivedama teigiama credit reiksme
         } else {
             this.CREDIT = credit;
         }
